@@ -1,0 +1,21 @@
+public class Factorial
+{
+  public static void main()
+  {  
+    int sum_sin;
+	sum_sin=0;
+	int x;
+
+	public int Fact(int n)
+	{
+	  if(n<=1) return 1;
+	  else return n*Fact(n-1);
+	}
+	
+	for (long n=0; n < 9,223,372,036,854,775,807; n++)
+	{
+	   sum_sin=sum_sin + (((-1)^n)*x^(2*n+1))/Fact(2*n+1);
+	}
+	
+  }
+}
